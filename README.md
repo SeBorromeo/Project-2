@@ -26,7 +26,7 @@ points of 1.0000. This confirms that it is a cubic function.
 
 For Pi, the name seemed to obviously imply that the number trying to be reached is Pi. The mean of all the data of Pi is 3.168573 and the final pint at 59
 minutes was 3.1415975, both of which were very close to pi. The final point would be the closest to Pi if my guess is correct. The Error of the final point
-using pi is 8.44664E-7 which is very small and the error it began with was 0.27323 for a value of 4.0.
+using pi is 1.54986578E-6 which is very small and the error it began with was 0.27323 for a value of 4.0.
 
 Overall, the value of Factor is growing at a cubic rate, and the value of Pi approaches the actual value of pi as time goes to infinity (up to when hour ends
 at it restarts of course). One thing to note as well is that it appears that the factor may be related to pi as it approaches its real value. For the first two
