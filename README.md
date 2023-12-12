@@ -32,3 +32,8 @@ Overall, the value of Factor is growing at a cubic rate, and the value of Pi app
 at it restarts of course). One thing to note as well is that it appears that the factor may be related to pi as it approaches its real value. For the first two
 minutes of the hour when Factor is equal to 1, Pi remains the same at 4.0. This seems to suggest that perhaps Pi is estimated using Factor or they are calculated
 by related means. This did not seem testable, however, but was something of interest.
+
+## Discord Bot
+
+When using !help, three functions will be shown humidity, temperature, and weather. All three take only a single parameter, a string representing the name of a
+city; !humidity will return the humidity for the city, !temperature the temperature in Fahrenheit, and !weather returns both as an embed For instance, !humidity Charlottesville will result in the bot sending the message "The humidity in Charlottesville is {humidity}%!" where {humidity} is the given humidity at that time. The bot will treat everything after the command as the city parameter so there will only be one parameter passed and if it does not align with a city with weather data provided by the API, an error message will result instead.
